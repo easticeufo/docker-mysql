@@ -1,6 +1,7 @@
 #!/bin/bash
 
 chmod -R 777 /var/log/mysql/
+chown -R mysql:mysql /var/log/mysql
 
 set -eo pipefail
 shopt -s nullglob
